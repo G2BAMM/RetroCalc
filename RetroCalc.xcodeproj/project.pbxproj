@@ -12,6 +12,7 @@
 		5BDA6C541E97D8CF0043B71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA6C521E97D8CF0043B71E /* Main.storyboard */; };
 		5BDA6C561E97D8CF0043B71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA6C551E97D8CF0043B71E /* Assets.xcassets */; };
 		5BDA6C591E97D8CF0043B71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA6C571E97D8CF0043B71E /* LaunchScreen.storyboard */; };
+		5BDA6C611E97F50C0043B71E /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA6C601E97F50C0043B71E /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5BDA6C551E97D8CF0043B71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDA6C581E97D8CF0043B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BDA6C5A1E97D8CF0043B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDA6C601E97F50C0043B71E /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5BDA6C4E1E97D8CE0043B71E /* AppDelegate.swift */,
 				5BDA6C501E97D8CE0043B71E /* ViewController.swift */,
 				5BDA6C521E97D8CF0043B71E /* Main.storyboard */,
+				5BDA6C601E97F50C0043B71E /* Minecraft.ttf */,
 				5BDA6C551E97D8CF0043B71E /* Assets.xcassets */,
 				5BDA6C571E97D8CF0043B71E /* LaunchScreen.storyboard */,
 				5BDA6C5A1E97D8CF0043B71E /* Info.plist */,
@@ -126,6 +129,7 @@
 			files = (
 				5BDA6C591E97D8CF0043B71E /* LaunchScreen.storyboard in Resources */,
 				5BDA6C561E97D8CF0043B71E /* Assets.xcassets in Resources */,
+				5BDA6C611E97F50C0043B71E /* Minecraft.ttf in Resources */,
 				5BDA6C541E97D8CF0043B71E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
