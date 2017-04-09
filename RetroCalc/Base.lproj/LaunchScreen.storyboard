@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,29 +19,29 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="Pqx-IV-ZAH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="ENu-Sn-GjK">
-                                <rect key="frame" x="34" y="28" width="253" height="47"/>
+                                <rect key="frame" x="34" y="28" width="308" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="u5Y-fB-Ab5"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="3c1-bf-t2s">
-                                <rect key="frame" x="0.0" y="404" width="320" height="76"/>
+                                <rect key="frame" x="0.0" y="591" width="375" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="Xgg-YM-k5h"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="zeF-3g-lY1">
-                                <rect key="frame" x="78" y="190" width="164" height="100"/>
+                                <rect key="frame" x="105.5" y="107" width="164" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="CXF-Xj-xr8"/>
-                                    <constraint firstAttribute="width" constant="164" id="F72-WB-Zq6"/>
+                                    <constraint firstAttribute="width" constant="164" id="Din-vc-pVi"/>
+                                    <constraint firstAttribute="height" constant="100" id="yBd-aV-q1l"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -54,11 +54,11 @@
                             <constraint firstItem="Pqx-IV-ZAH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ybz-uo-gUz"/>
                             <constraint firstItem="ENu-Sn-GjK" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="dAb-zQ-n54"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="3c1-bf-t2s" secondAttribute="bottom" id="em2-XR-Aju"/>
+                            <constraint firstItem="zeF-3g-lY1" firstAttribute="top" secondItem="ENu-Sn-GjK" secondAttribute="bottom" constant="32" id="hUF-hS-1tT"/>
+                            <constraint firstItem="zeF-3g-lY1" firstAttribute="centerX" secondItem="ENu-Sn-GjK" secondAttribute="centerX" id="i3U-5P-BNo"/>
                             <constraint firstItem="3c1-bf-t2s" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mFW-hR-3sS"/>
                             <constraint firstAttribute="trailing" secondItem="3c1-bf-t2s" secondAttribute="trailing" id="nYf-Vj-JdM"/>
-                            <constraint firstItem="zeF-3g-lY1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="viy-eL-Zbw"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Pqx-IV-ZAH" secondAttribute="bottom" id="wk8-fV-4Sb"/>
-                            <constraint firstItem="zeF-3g-lY1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x6p-qR-e2N"/>
                         </constraints>
                     </view>
                 </viewController>
