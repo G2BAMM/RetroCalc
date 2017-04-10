@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5B5D3C481E990ED00052A1D1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D3C471E990ED00052A1D1 /* btn.wav */; };
+		5B5D3C4B1E9BC3370052A1D1 /* no_sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D3C491E9BC3370052A1D1 /* no_sound.png */; };
+		5B5D3C4C1E9BC3370052A1D1 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D3C4A1E9BC3370052A1D1 /* sound.png */; };
 		5BDA6C4F1E97D8CE0043B71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA6C4E1E97D8CE0043B71E /* AppDelegate.swift */; };
 		5BDA6C511E97D8CE0043B71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA6C501E97D8CE0043B71E /* ViewController.swift */; };
 		5BDA6C541E97D8CF0043B71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDA6C521E97D8CF0043B71E /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		5B5D3C471E990ED00052A1D1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		5B5D3C491E9BC3370052A1D1 /* no_sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_sound.png; sourceTree = "<group>"; };
+		5B5D3C4A1E9BC3370052A1D1 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
 		5BDA6C4B1E97D8CE0043B71E /* RetroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDA6C4E1E97D8CE0043B71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BDA6C501E97D8CE0043B71E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				5BDA6C521E97D8CF0043B71E /* Main.storyboard */,
 				5B5D3C471E990ED00052A1D1 /* btn.wav */,
 				5BDA6C601E97F50C0043B71E /* Minecraft.ttf */,
+				5B5D3C491E9BC3370052A1D1 /* no_sound.png */,
+				5B5D3C4A1E9BC3370052A1D1 /* sound.png */,
 				5BDA6C551E97D8CF0043B71E /* Assets.xcassets */,
 				5BDA6C571E97D8CF0043B71E /* LaunchScreen.storyboard */,
 				5BDA6C5A1E97D8CF0043B71E /* Info.plist */,
@@ -108,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = 5BDA6C461E97D8CE0043B71E /* Build configuration list for PBXProject "RetroCalc" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,7 +138,9 @@
 			files = (
 				5B5D3C481E990ED00052A1D1 /* btn.wav in Resources */,
 				5BDA6C591E97D8CF0043B71E /* LaunchScreen.storyboard in Resources */,
+				5B5D3C4B1E9BC3370052A1D1 /* no_sound.png in Resources */,
 				5BDA6C561E97D8CF0043B71E /* Assets.xcassets in Resources */,
+				5B5D3C4C1E9BC3370052A1D1 /* sound.png in Resources */,
 				5BDA6C611E97F50C0043B71E /* Minecraft.ttf in Resources */,
 				5BDA6C541E97D8CF0043B71E /* Main.storyboard in Resources */,
 			);
